@@ -1,0 +1,90 @@
+body{
+    min-width: 100%;
+    background:url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwd29ya291dHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    position: fixed;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0px;
+}
+.left{
+/* border: 2px solid blue; */
+color: white;
+display: inline-block;
+position: absolute;
+left: 20px;
+top: 20px;
+font-size: 20px;
+line-height: 0px;
+}
+.mid{
+/* border: 2px solid red; */
+color: white;
+display: inline-block;
+text-align: center;
+width: 600px;
+margin: 29px 450px;
+}
+.right{
+     /* border: 2px solid yellow; */
+     color: white; 
+     display: inline-block;
+     position: fixed;
+     right: 20px;
+     top: 43px;
+    }
+    .navbar{
+        /* this display inline block is used made the line in straigh */
+display: inline-block;
+    }
+    .navbar li{
+display: inline-block;
+font-size: large;
+    } 
+    .navbar li a{
+        color: aliceblue;
+    text-decoration: none;
+     padding: 10px;
+    }
+    .navbar li a:hover{
+text-decoration: underline;
+color:grey;
+    }
+    .left img{
+        width: 130px;
+        filter: invert(100%);
+    }
+    .btn{
+        width: 80px;
+        padding: 5px;
+        margin: 3px;
+        border: 2px rgb(242 238 238) solid;
+        border-radius: 9px;
+        cursor: pointer;
+        background-color: black;
+        color: aliceblue;
+        font-size: 15px;
+    }
+    .btn:hover{
+      color: grey;
+    }
+    .container{
+        border: 2px rgb(248, 244, 244) solid;
+        margin: 106px 70px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 28px;
+        color: white;
+        text-align: center;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        font-size: 100%;
+        border: 2px rgb(240, 231, 231) solid;
+        margin: 10px;
+        padding: 4px;
+        border-radius: 12px;
+        width: 70%;
+        margin: 11px auto;
+    }
